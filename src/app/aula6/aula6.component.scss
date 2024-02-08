@@ -1,0 +1,42 @@
+// .container {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 20%;
+//     gap: 5px;
+
+//     font-family: "Roboto", sans-serif;
+//     padding: 10px;
+//     height: 80vh;
+//     overflow-y: scroll;
+
+//     >* {
+//         display: flex;
+//         flex-direction: column;
+
+//         background: rgba(255, 255, 255, 0.24);
+//         border-radius: 16px;
+//         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+//         padding: 30px;
+//     }
+// }
+
+// app-results {
+//     grid-area: 2 / 2 / span 1 / span 2;
+// }
+
+// @media (max-width: 500px) {
+//     .container {
+//         display: flex;
+//         flex-direction: column;
+//         height: auto;
+//     }
+// }
+
+.wrapper {
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 50% 5% 40%;
+}
